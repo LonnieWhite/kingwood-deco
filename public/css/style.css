@@ -1,0 +1,31 @@
+.menu {
+    padding-left: 20 px;
+}
+
+body {
+    background-color: black;
+}
+
+#company {
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    border: white;
+    margin-right: 30em;
+    margin-left: 2em;
+}
+
+li a.menu-color {
+    color: white;
+}
+
+div.container-fluid {
+    background-color: #FC1F8E;
+    padding: 1.25em 0 1.25em 0;
+}
+
+#footer {
+    text-align: center;
+    color: black;
+}
