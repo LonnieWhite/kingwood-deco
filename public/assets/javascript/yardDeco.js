@@ -1,3 +1,9 @@
 $(document).ready(function () {
-  $('.carousel').carousel('cycle');
+  $('.carousel').carousel({
+    interval: 1000,
+    keyboard: true,
+    pause: 'hover',
+    ride: 'carousel',
+    wrap: true
+  });
 });
