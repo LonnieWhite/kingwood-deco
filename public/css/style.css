@@ -25,7 +25,7 @@ body {
 }
 
 #blingYard {
-    margin-left: 5em;
+    margin-left: 10em;
     color: white;
     font-size: 1em;
     font-family: 'Bad Script', cursive;
@@ -41,7 +41,7 @@ div.navbar-header {
 #navbar {
     color: white;
     float: right;
-    font-size: 1.5em;
+    font-size: 1.25em;
     margin-right: 1em;
     margin-bottom: 2em;
 }
@@ -63,54 +63,3 @@ div.container-fluid {
 
 
 /***** IMAGE SLIDER *****/
-
-@keyframes slider {
-    0% {
-        left: 0;
-    }
-    20% {
-        left: 0;
-    }
-    25% {
-        left: -100%0;
-    }
-    45% {
-        left: -100%;
-    }
-    50% {
-        left: -200%;
-    }
-    70% {
-        left: -200%;
-    }
-    75% {
-        left: -300%;
-    }
-    95% {
-        left: -300%;
-    }
-    100% {
-        left: 400%;
-    }
-}
-
-#slider {
-    overflow: hidden;
-    max-height: 300px;
-    max-width: 300px;
-}
-
-#slider figure img {
-    width: 20%;
-    float: left;
-}
-
-#slider figure {
-    position: relative;
-    width: 200%;
-    margin: 0;
-    left: 0;
-    text-align: left;
-    font-size: 0;
-    animation: 20s slider infinite;
-}
