@@ -1,3 +1,8 @@
+/***** WEB SITE COLORS *****/
+
+PINK: #FC1F8E BLACK White Yellow
+/***** OTHER *****/
+
 .menu {
     padding-left: 20 px;
 }
@@ -6,26 +11,52 @@ body {
     background-color: black;
 }
 
+
+/***** HEADER *****/
+
 #company {
     font-family: 'Cinzel', serif;
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: bold;
-    color: black;
-    border: white;
+    color: #FC1F8E;
     margin-right: 30em;
     margin-left: 2em;
+    width: 50%;
 }
 
-li a.menu-color {
+#blingYard {
+    margin-left: 5em;
+    color: white;
+    font-size: 1em;
+    font-family: 'Bad Script', cursive;
+}
+
+div.navbar-header {
+    width: 50%;
+}
+
+
+/***** NAVIGATION BAR *****/
+
+#navbar {
+    color: white;
+    float: right;
+    font-size: 1.5em;
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+a .menu-color {
     color: white;
 }
 
 div.container-fluid {
-    background-color: #FC1F8E;
+    background-color: black;
     padding: 1.25em 0 1.25em 0;
 }
 
 #footer {
     text-align: center;
-    color: black;
+    color: white;
+    ;
 }
