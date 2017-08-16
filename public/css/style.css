@@ -1,67 +1,101 @@
-            /***** WEB SITE COLORS *****/
-        
-        PINK: #FC1F8E BLACK White Yellow
-        /***** OTHER *****/
-        
-        .menu {
-            padding-left: 20 px;
-        }
-        
-        body {
-            background-color: black;
-        }
-        /***** HEADER *****/
-        
-        #company {
-            font-family: 'Cinzel', serif;
-            font-size: 1.7em;
-            font-weight: bold;
-            color: #FC1F8E;
-            margin-right: 30em;
-            margin-left: 2em;
-            width: 50%;
-        }
-        
-        #blingYard {
-            margin-left: 10em;
-            color: white;
-            font-size: 1em;
-            font-family: 'Bad Script', cursive;
-        }
-        
-        div.navbar-header {
-            width: 50%;
-        }
-        /***** NAVIGATION BAR *****/
-        
-        #navbar {
-            color: white;
-            float: right;
-            font-size: 1.25em;
-            margin-right: 1em;
-            margin-bottom: 2em;
-        }
-        
-        a .menu-color {
-            color: white;
-        }
-        
-        div.container-fluid {
-            background-color: black;
-            padding: 1.25em 0 1.25em 0;
-        }
-        
-        .carousel-inner>.item>img,
-        .carousel-inner>.item>a>img {
-            border: 5px solid #FC1F8E;
-            width: 50%;
-            margin: auto;
-            #footer {
-                text-align: center;
-                color: white;
-                ;
-            }
-            /***** ACCORDION *****/
-            .pandel-heading {
-                background-color: #FC1F8E;
-            }
+    /***** WEB SITE COLORS *****/
+
+/*PINK: #FC1F8E Yellow: #FFD871 soft pink: #ffd9f2
+/***** OTHER *****/
+.menu {
+    padding-left: 20 px;
+}
+body {
+    background-color: #ffd9f2;
+}
+.pageContent {
+    height: 80vh;
+    width: 90%;
+    background-color: white;
+}
+/***** HEADER *****/
+.navbar-inverse {
+    border-bottom: #FFD871 thick solid;
+}
+#company {
+        line-height:2rem;
+    font-family: 'Cinzel', serif;
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #FC1F8E;
+    margin-right: 30em;
+    margin-left: 2.6em;
+    width: 50%;
+}
+
+#blingYard {
+    margin-left: 10em;
+    color: white;
+    font-size: 1em;
+    font-family: 'Bad Script', cursive;
+}
+
+div.navbar-header {
+    position: absolute;
+    left: 1.3%;
+    top: 20%;
+}
+/***** NAVIGATION BAR *****/
+.navbar {
+    min-height: none !important;
+    margin-bottom: 0 !important;
+}
+#navbar {
+    border: thick black solid;
+    border-top: thick white solid;
+    padding: .9rem;
+    background-color: #FC1F8E;
+    left: 20%;
+    width: 60%;
+    top: 4rem;
+    position: relative;
+    font-size: 1.25rem;
+    z-index:100;
+}
+#navbar:after {
+    left: -.4%;
+    top: -6%;
+    height: 60%;
+    content: '';
+    display: block;
+    position: absolute;
+    border-right: thick solid white;
+    border-left: thick solid white;
+    width: 100.8%;
+}
+.nav>li {
+    padding: 0 1.1%;
+    font-size: 1.5rem;
+}
+a.menu-color {
+    color: white !important;
+}
+
+div.container-fluid {
+    background-color: black;
+    padding: 1.25em 0 1.25em 0;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    border: 5px solid #FC1F8E;
+    width: 50%;
+    margin: auto;
+}
+    #footer {
+        text-align: center;
+        color: white;
+        border-top: #FFD871 thick solid;
+    }
+    /***** IMAGE SLIDER *****/
+
+    /** Accordian panel **/
+    .panel-group {
+        margin: 5% auto;
+    }
+>>>>>>> rachel
