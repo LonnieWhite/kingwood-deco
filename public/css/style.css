@@ -14,7 +14,7 @@
         
         #company {
             font-family: 'Cinzel', serif;
-            font-size: 1.7em;
+            font-size: 1.5em;
             font-weight: bold;
             color: #FC1F8E;
             margin-right: 30em;
@@ -37,7 +37,7 @@
         #navbar {
             color: white;
             float: right;
-            font-size: 1.25em;
+            font-size: 1em;
             margin-right: 1em;
             margin-bottom: 2em;
         }
