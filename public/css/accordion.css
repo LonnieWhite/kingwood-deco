@@ -1,0 +1,25 @@
+ /* ::-webkit-scrollbar { 
+    display: none; 
+}  */
+.panel-title {
+  font-family: 'Cinzel', serif !important;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+.panel-title:hover, .panel-title:active {
+  color: #FC1F8E;
+  text-decoration: none;
+}
+
+.panel-collapse .panel-body ul {
+    width: 100%;
+    padding-right: 15px;
+    height: 99%;
+}
+#accordion ul {
+  list-style: none;
+}
+#accordion li {
+  float: left;
+  margin: 1rem;
+}
