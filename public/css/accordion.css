@@ -1,12 +1,22 @@
- /* ::-webkit-scrollbar { 
-    display: none; 
-}  */
+ ::-webkit-scrollbar { 
+    background-color: #ffd871; 
+}   
+  ::-webkit-scrollbar-track {
+    background-color: white;
+    border: #FFD871 thin solid;
+}
+  ::-webkit-scrollbar-thumb {
+    background-color: #ffd871
+}
+.pageContent {
+  overflow-y: auto;
+} 
 .panel-title {
   font-family: 'Cinzel', serif !important;
   font-weight: bold;
   font-size: 1.8em;
 }
-.panel-title:hover, .panel-title:active {
+h4.panel-title > a:hover, h4.panel-title > a:active, h4.panel-title > a:focus {
   color: #FC1F8E;
   text-decoration: none;
 }
