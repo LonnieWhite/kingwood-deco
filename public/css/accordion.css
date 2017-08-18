@@ -31,5 +31,5 @@ h4.panel-title > a:hover, h4.panel-title > a:active, h4.panel-title > a:focus {
 }
 #accordion li {
   float: left;
-  margin: 1rem;
+  margin: 3rem 4rem;
 }
