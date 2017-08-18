@@ -103,6 +103,47 @@
         border-top: #FFD871 thick solid;
     }
     /***** CONTACT PAGE *****/
+    .contact-header {
+        text-align: center;
+        margin-top: 2em;
+        font-family: 'Bad Script', cursive;
+        font-weight: bold;
+    }
+    #contact-us {
+        text-align: center;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+        }
+
+    .fa.fa-phone-square    { /** phone icon **/
+        font-size: 2.5em;
+       }
+
+    .phone     {              /** phone number **/
+         text-align: center; 
+         margin-top: 6em;
+           }
+
+     .fa.fa-envelope {       /** email icon **/
+         font-size: 2.5em;
+        }
+
+      .email-address {        /** email address **/
+        text-align: center;
+        margin-top: 4em;
+      }
+
+      .fa.fa-facebook-official {  /** facebook icon **/
+        font-size: 3em;
+      }
+
+      .facebook-address {          /** facebook url **/
+        text-align: center;
+        margin-top: 4em;
+      }
+   
+
+    
     /***** IMAGE SLIDER *****/
     /** Accordian panel **/
     
