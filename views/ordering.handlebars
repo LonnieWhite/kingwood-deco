@@ -1,5 +1,92 @@
-{{>header}}
+{{>header}} {{!-- Name email address zip gate code request color gender policiesCheck --}}
 <div class="container pageContent">
-  Ordering
+  <form class="container" id="orderForm">
+    <div class="form-group row">
+      <label for="example-text-input" class="col-2 col-form-label">Name</label>
+      <div class="col-10">
+        <input class="form-control" type="text" value="Your Name" id="example-text-input">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="example-text-input" class="col-2 col-form-label">Delivery Address</label>
+      <div class="col-10">
+        <input class="form-control" type="text" value="123 Fake St" id="example-text-input">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="custom-control custom-radio">
+  <input id="radio1" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">KingWood</span>
+</label>
+      <label class="custom-control custom-radio">
+  <input id="radio2" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">Humble</span>
+</label>
+    </div>
+
+    <div class="form-group row">
+      <label for="example-text-input" class="col-2 col-form-label">Zip Code</label>
+      <div class="col-10">
+        <input class="form-control" type="text" value="12345" id="example-text-input">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="example-text-input" class="col-2 col-form-label">Special Instructions</label>
+      <div class="col-10">
+        <input class="form-control" type="text" value="Gate Code, etc." id="example-text-input">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="example-email-input" class="col-2 col-form-label">Email</label>
+      <div class="col-10">
+        <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
+      <div class="col-10">
+        <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="example-datetime-local-input" class="col-2 col-form-label">Date and time</label>
+      <div class="col-10">
+        <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label class="custom-control custom-radio">
+  <input id="radio1" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">M</span>
+</label>
+      <label class="custom-control custom-radio">
+  <input id="radio2" name="radio" type="radio" class="custom-control-input">
+  <span class="custom-control-indicator"></span>
+  <span class="custom-control-description">F</span>
+</label>
+    </div>
+    <div class="form-group row">
+      <label for="example-color-input" class="col-2 col-form-label">Color</label>
+      <div class="col-10">
+        <input class="form-control" type="color" value="#563d7c" id="example-color-input">
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="form-check">
+        <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      I have read and agree to policies listed.
+    </label>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="offset-sm-2 col-sm-10">
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </div>
+    </div>
+  </form>
 </div>
 {{>footer}}
