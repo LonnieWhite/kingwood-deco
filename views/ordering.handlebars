@@ -1,92 +1,116 @@
 {{>header}} {{!-- Name email address zip gate code request color gender policiesCheck --}}
 <div class="container pageContent">
   <form class="container" id="orderForm">
-    <div class="form-group row">
-      <label for="example-text-input" class="col-2 col-form-label">Name</label>
-      <div class="col-10">
-        <input class="form-control" type="text" value="Your Name" id="example-text-input">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" class="form-control" placeholder="Your name" id="formName">
+        </div>
       </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-text-input" class="col-2 col-form-label">Delivery Address</label>
-      <div class="col-10">
-        <input class="form-control" type="text" value="123 Fake St" id="example-text-input">
+      <!--  col-md-6   -->
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="color">Color</label>
+          <input type="color" class="form-control" placeholder="Your theme color" value="#FC1F8E" id="formColor">
+        </div>
       </div>
-    </div>
-    <div class="form-group row">
-      <label class="custom-control custom-radio">
-  <input id="radio1" name="radio" type="radio" class="custom-control-input">
-  <span class="custom-control-indicator"></span>
-  <span class="custom-control-description">KingWood</span>
-</label>
-      <label class="custom-control custom-radio">
-  <input id="radio2" name="radio" type="radio" class="custom-control-input">
-  <span class="custom-control-indicator"></span>
-  <span class="custom-control-description">Humble</span>
-</label>
+      <!--  col-md-6   -->
     </div>
 
-    <div class="form-group row">
-      <label for="example-text-input" class="col-2 col-form-label">Zip Code</label>
-      <div class="col-10">
-        <input class="form-control" type="text" value="12345" id="example-text-input">
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="phone">Email Adress</label>
+          <input type="email" class="form-control" id="formEmail" placeholder="Your e-mail address">
+        </div>
       </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-text-input" class="col-2 col-form-label">Special Instructions</label>
-      <div class="col-10">
-        <input class="form-control" type="text" value="Gate Code, etc." id="example-text-input">
+      <!--  col-md-6   -->
+
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" class="form-control" id="formPhone" placeholder="Your phone number">
+        </div>
       </div>
+      <!--  col-md-6   -->
     </div>
-    <div class="form-group row">
-      <label for="example-email-input" class="col-2 col-form-label">Email</label>
-      <div class="col-10">
-        <input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
+    <!--  row   -->
+
+
+    {{!--
+    <div class="row"> --}}
+      <!-- Outer row for group -->
+      <div class="row">
+        <!-- Row with top address and special contains other rows -->
+        <div class="col-md-6">
+          <!-- Col with 3 rows -->
+          <div class="form-group">
+            <label for="text">Street Address</label>
+            <input type="text" class="form-control" id="formStreet" placeholder="Your Address">
+          </div>
+          <!-- one -->
+          <div class="form-group">
+            <label for="text">Address Continued</label>
+            <input type="text" class="form-control" id="formStreet2" placeholder="Address Line 2">
+          </div>
+          <!-- two -->
+          <div class="row">
+            <!-- row that will hold two columns -->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="text">City</label>
+                <input type="text" class="form-control" id="formCity" placeholder="City">
+              </div>
+            </div>
+            <!--end col 1-->
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="text">Zip Code</label>
+                <input type="text" class="form-control" id="formZip" placeholder="Zipcode">
+              </div>
+            </div>
+            <!-- end col 2 -->
+          </div>
+          <!-- end row that holds 2 columns -->
+        </div>
+        <!-- three -->
+        <!-- end col with three rows -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="text">Special Instructions</label>
+            <input type="text" class="form-control" id="formInstructions" placeholder="Instructions" style="min-height: 188px">
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
-      <div class="col-10">
-        <input class="form-control" type="tel" value="1-(555)-555-5555" id="example-tel-input">
+      <!--  col-md-6   -->
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="example-date-input">Date</label>
+            <input class="form-control" type="date" value="2011-08-19" id="formDate">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="example-time-input">Time</label>
+            <input class="form-control" type="time" value="13:45:00" id="formTime">
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="form-group row">
-      <label for="example-datetime-local-input" class="col-2 col-form-label">Date and time</label>
-      <div class="col-10">
-        <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+      <div class="row">
+        <div class="col-md-12">
+          <label>
+            <input type="checkbox" value="I have read and accept the policies listed." id="formPolicy" class="central"> I have read and accept the policies listed.
+          </label>
+        </div>
       </div>
-    </div>
-    <div class="form-group row">
-      <label class="custom-control custom-radio">
-  <input id="radio1" name="radio" type="radio" class="custom-control-input">
-  <span class="custom-control-indicator"></span>
-  <span class="custom-control-description">M</span>
-</label>
-      <label class="custom-control custom-radio">
-  <input id="radio2" name="radio" type="radio" class="custom-control-input">
-  <span class="custom-control-indicator"></span>
-  <span class="custom-control-description">F</span>
-</label>
-    </div>
-    <div class="form-group row">
-      <label for="example-color-input" class="col-2 col-form-label">Color</label>
-      <div class="col-10">
-        <input class="form-control" type="color" value="#563d7c" id="example-color-input">
+      <div class="row">
+        <button type="submit" class="btn btn-primary central" id="formSubmit">Order Now!</button>
       </div>
-    </div>
-    <div class="form-group row">
-      <div class="form-check">
-        <label class="form-check-label">
-      <input type="checkbox" class="form-check-input">
-      I have read and agree to policies listed.
-    </label>
-      </div>
-    </div>
-    <div class="form-group row">
-      <div class="offset-sm-2 col-sm-10">
-        <button type="submit" class="btn btn-primary">Sign in</button>
-      </div>
-    </div>
   </form>
+  </div>
 </div>
 {{>footer}}
