@@ -8,9 +8,7 @@
   ::-webkit-scrollbar-thumb {
     background-color: #ffd871
 }
-.pageContent {
-  overflow-y: auto;
-} 
+
 .panel-title {
   font-family: 'Cinzel', serif !important;
   font-weight: bold;

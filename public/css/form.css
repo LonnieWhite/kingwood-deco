@@ -1,5 +1,5 @@
 #orderForm {
-  margin-top: 8rem;
+  margin-top: 7rem;
   max-width: 1035px;
   line-height: 3.428571;
 }
@@ -11,9 +11,10 @@
 input {
   border:none;
 }
-
-.form-control:not(#formColor) {
-  height: 0;
+.form-control {
+  height: 50px;
+}
+.form-control:not(#formColor):not(formDate):not(formTime) {
   color: black;
   font-weight: bold;
   border-top: none;
@@ -23,14 +24,33 @@ input {
   -webkit-box-shadow:none;
   box-shadow:none;
   border-radius: 0;
-  transition: height .5s;
+  transition: padding-top .5s, background-color ease-out .5s, border-color .5s;
+  position: relative;
+  top: -2vh;
+  bottom: 2vh;
+}
+::-webkit-input-placeholder {
+    color:black !important;
+    opacity: 1 !important;
 }
 
-.form-control:focus:not(#formColor) {
-  height: 60px;
+::-moz-placeholder {
+    color:black !important;
+    opacity: 1 !important;
 }
 
-.form-control:focus {
+::-ms-placeholder {
+    color:black !important;
+    opacity: 1 !important;
+}
+
+::placeholder {
+    color:black !important;
+    opacity: 1 !important;
+}
+
+.form-control:focus:not(#formColor):not(formDate):not(formTime) {
+  padding-top: 26px; 
   border-color: #ffd9f2;
   background-color: #ffd9f2;
   -webkit-box-shadow: none;
@@ -38,9 +58,6 @@ input {
   border-bottom: thin black solid;
 }
 
-#formPolicy {
-  margin-top: 10%;
-}
 #formSubmit {
   margin: 2% 30%;
   min-height: 60px;;
