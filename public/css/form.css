@@ -73,3 +73,45 @@ input {
   border: #ff47a3;
   box-shadow: 5px 10px 15px 10px rgba(0,0,0,0.19), 5px 10px 10px rgba(0,0,0,0.23);
 }
+
+.modal-open {
+  width: calc(100% + 15px) 
+}
+
+.modal-content {
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  height: 500px;
+  border-radius: 100%/100% !important;
+  background-image: url('../assets/images/modalBalloons.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.modal-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  padding: 110px 0 0 0;
+}
+
+.modal-body {
+  padding: 15px;
+}
+
+.modal {
+  top: 188px !important;
+}
+
+.modal-open {
+  overflow-y: hidden;
+}
+
+.close {
+    position: relative;
+    left: 49%;
+    top: 2vh;
+    float: none;
+}
