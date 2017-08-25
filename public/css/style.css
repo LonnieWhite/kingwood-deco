@@ -115,10 +115,14 @@ div #contact-and-affiliates {
 .skipTheCard {
     text-align: center;
     margin-top: 1.5em;
+    background-color: black;
+    border-radius: 100px/50px;
+    box-shadow: 1px 4px 1px rgba(252, 31, 142 , 0.4);
+    padding: 22px 0 17px 0;
     font-family: 'Bad Script', cursive;
     font-weight: bold;
     font-size: 3em;
-    color: #FC1F8E;
+    color: white;
 }
 
 
@@ -151,7 +155,7 @@ div #contact-and-affiliates {
 
 /** email icon **/
 i.fa.fa-envelope {
-    font-size: 3em;
+    font-size: 1.5em;
 }
 
 /** email address **/
@@ -179,6 +183,14 @@ i.fa.fa-envelope {
     font-size: 2.25em;
 }
 
+#woodlands {
+    font-size: 1.25em
+}
+
+#forInformation {
+    font-size: 1.25em;
+}
+
 /** Accordian panel **/
 .panel-group {
     margin: 5% auto;
@@ -191,6 +203,7 @@ i.fa.fa-envelope {
     text-align: center;
     color: black !important;
     background-color: transparent;
+    z-index: -10;
 }
 /********************************
         GREETING INDEA PAGE
@@ -210,4 +223,12 @@ i.fa.fa-envelope {
 .headers {
     font-family: 'Cinzel',
     serif;
+}
+
+/********************************
+    ORDERING PAGE
+*********************************/
+.modal-header {
+    border-bottom: none;
+    padding: 15px;
 }

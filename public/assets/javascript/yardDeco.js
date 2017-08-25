@@ -22,9 +22,13 @@ $(document).ready(function () {
 
     $('#formSubmit').on('submit', function (event) {
       event.preventDefault;
+      $('#myModal').modal('toggle')
       if ($('#formPolicy')) {
         console.log(orderEmail);
       }
     });
   });
 });
+
+// BOOK NOW MODAL
+
