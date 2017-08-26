@@ -1,9 +1,9 @@
 Kingwood/Humble Yard Deco
 
-SYNOPSIS
+SYNOPSIS:
 This web application has been created for a client who owns a yard decoration company in which she sells colorful and fun signs for customers to put in there yards or in front of there business location for events like birthdays, graduations and retirement parties. 
 
-PROJECT DEMO
+PROJECT DEMO:
 https://github.com/LonnieWhite/kingwood-deco
 
 
