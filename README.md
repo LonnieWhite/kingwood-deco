@@ -30,10 +30,10 @@ Heroku - for deployment
 
 
 
-AUTHOR & CONTRIBUTORS
+AUTHOR & CONTRIBUTORS:
 Lonnie White
 Rachel Thilm
 
-ACKNOWLEDGEMENTS
+ACKNOWLEDGEMENTS:
 Thank you Michelle Humphrey the client for giving me this oportunity to create your business web application.
 Thank you Rachel Thilm for your hands on approach to guiding me threw this project.
